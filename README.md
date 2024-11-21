@@ -1,6 +1,6 @@
 # Sistema de Agência Bancária
 
-Um sistema bancário simples desenvolvido em Java que permite realizar operações bancárias básicas com interface gráfica usando JOptionPane e persistência de dados em MySQL.
+Um sistema bancário simples desenvolvido em Java que permite realizar operações bancárias básicas com interface gráfica usando JOptionPane e persistência de dados em MySQL. O projeto foi criado com base na [video-aula](https://youtu.be/AExKQiCqwGs?si=fT03BU5TVp7NKgL1) e adaptado para incluir novas funcionalidades e melhorias.
 
 ## 📋 Funcionalidades
 
@@ -60,7 +60,7 @@ conexao = java.sql.DriverManager.getConnection(
 
 1. Clone o repositório:
 ```bash
-git clone [url-do-seu-repositorio]
+git clone [https://github.com/PietraCaraccoRuiz/java-banking-system.git]
 ```
 
 2. Importe o projeto em sua IDE
@@ -112,10 +112,6 @@ git clone [url-do-seu-repositorio]
 - Adicionar validação de CPF
 - Melhorar a interface gráfica com Swing ou JavaFX
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ## ✒️ Autor
 
-Seu Nome - [Seu GitHub](https://github.com/seu-usuario)
+Pietra Caracco Ruiz - [GitHub](https://github.com/PietraCaraccoRuiz)
