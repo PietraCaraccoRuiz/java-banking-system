@@ -5,19 +5,13 @@ import javax.swing.JOptionPane;
 
 public class Conta {
 	
-	//definir automaticando um número para a conta toda vez que for criada
-	private static int contadorConta = 1;
-	
 	private int numeroConta;
 	private Pessoa pessoa;
 	private Double saldo = 0.0;
 	
 	//Metodo Construtor
 	public Conta(Pessoa pessoa) {
-		this.numeroConta = contadorConta;
 		this.pessoa = pessoa;
-		
-		contadorConta += 1;
 	}
 
 	//Get Set

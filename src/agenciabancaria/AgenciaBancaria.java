@@ -16,7 +16,7 @@ public class AgenciaBancaria {
             contasBancarias = new ArrayList<Conta>();
 
             // Carregar contas existentes do banco de dados
-            contasBancarias = conexaoBD.buscarTodasContas();  // Use the initialized conexaoBD
+            contasBancarias = conexaoBD.buscarTodasContas();
 
             operacoes();
         } finally {

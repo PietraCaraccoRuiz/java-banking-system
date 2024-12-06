@@ -33,10 +33,10 @@ CREATE TABLE pessoas (
 );
 
 CREATE TABLE contas (
-    numero_conta INT PRIMARY KEY,
-    pessoa_id INT,
-    saldo DOUBLE,
-    FOREIGN KEY (pessoa_id) REFERENCES pessoas(id)
+    numero_conta INT AUTO_INCREMENT PRIMARY KEY,
+    pessoa_id INT NOT NULL,
+    saldo DECIMAL(10, 2) DEFAULT 0.0,
+    FOREIGN KEY (pessoa_id) REFERENCES pessoas(id) ON DELETE CASCADE
 );
 ```
 
